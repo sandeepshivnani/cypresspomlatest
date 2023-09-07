@@ -1,0 +1,20 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ui:test": "cypress run",
+    "sandeep": "cypress open",
+    "cypressdash": "cypress open --record --key bf63e220-af5d-41f7-ba2b-2cc736d48aad"
+  },
+  "keywords": [],
+  
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress-mochawesome-reporter": "^3.4.0",
+    "cypress": "^12.11.0"
+  }
+}
